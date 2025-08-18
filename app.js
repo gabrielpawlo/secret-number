@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = numeroAleatorio();
 let tentativas = 1;
 
@@ -25,7 +25,7 @@ function reiniciarJogo(){
 function mensagemInicial(){
     
     exibirTexto('h1', 'Secret number game');
-    exibirTexto('p', 'Choose a number betwen 1 and 10');
+    exibirTexto('p', 'Choose a number betwen 1 and 100');
 }
 
 function verificarChute(){//sem parametro

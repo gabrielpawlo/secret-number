@@ -25,7 +25,7 @@ function reiniciarJogo(){
 function mensagemInicial(){
     
     exibirTexto('h1', 'Secret number game');
-    exibirTexto('p', 'Choose a number betwen 1 and 100');
+    exibirTexto('p', 'Choose a number betwen 1 and 50');
 }
 
 function verificarChute(){//sem parametro
